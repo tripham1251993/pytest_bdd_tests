@@ -1,0 +1,5 @@
+ADMIN_USER: admin
+ADMIN_PASSWORD: admin123
+
+INVALID_USER: abcxyz
+INVALID_PASSWORD: zyxcba

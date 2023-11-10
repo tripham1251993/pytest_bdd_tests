@@ -1,0 +1,4 @@
+USERNAME_INPUT: xpath://input[@name="username"]
+PASSWORD_INPUT: xpath://input[@name="password"]
+LOGIN_BUTTON: xpath://button[@type="submit"]
+VALIDATE_MESSAGE: xpath://span[@id="spanMessage1"]

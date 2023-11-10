@@ -1,0 +1,167 @@
+ADMIN:
+  MAIN_MENU: xpath://a[@id="menu_admin_viewAdminModule"]
+  USER_MANAGEMENT:
+    MAIN_MENU: xpath://a[@id="menu_admin_UserManagement"]
+    USERS: xpath://a[@id="menu_admin_viewSystemUsers"]
+    OPTIONAL_FIELDS: xpath://a[@id="menu_pim_configurePim"]
+    CUSTOM_FIELDS: xpath://a[@id="menu_pim_listCustomFields"]
+    DATA_IMPORT: xpath://a[@id="menu_admin_pimCsvImport"]
+    REPORTING_METHODS: xpath://a[@id="menu_pim_viewReportingMethods"]
+    TERMINATION_REASONS: xpath://a[@id="menu_pim_viewTerminationReasons"]
+    MY_TIMESHEETS: xpath://a[@id="menu_time_viewMyTimesheet"]
+    EMPLOYEE_TIMESHEETS: xpath://a[@id="menu_time_viewEmployeeTimesheet"]
+    KPIS: xpath://a[@id="menu_performance_searchKpi"]
+    TRACKERS: xpath://a[@id="menu_performance_addPerformanceTracker"]
+    EMPLOYEE_RECORDS: xpath://a[@id="menu_maintenance_purgeEmployee"]
+    CANDIDATE_RECORDS: xpath://a[@id="menu_maintenance_purgeCandidateData"]
+  JOB:
+    MAIN_MENU: xpath://a[@id="menu_admin_Job"]
+    JOB_TITLES: xpath://a[@id="menu_admin_viewJobTitleList"]
+    PAY_GRADES: xpath://a[@id="menu_admin_viewPayGrades"]
+    EMPLOYMENT_STATUS: xpath://a[@id="menu_admin_employmentStatus"]
+    JOB_CATEGORIES: xpath://a[@id="menu_admin_jobCategory"]
+    WORK_SHIFTS: xpath://a[@id="menu_admin_workShift"]
+    MY_RECORDS: xpath://a[@id="menu_attendance_viewMyAttendanceRecord"]
+    PUNCH_IN_OUT: xpath://a[@id="menu_attendance_punchIn"]
+    EMPLOYEE_RECORDS: xpath://a[@id="menu_attendance_viewAttendanceRecord"]
+    CONFIGURATION: xpath://a[@id="menu_attendance_configure"]
+    MANAGE_REVIEWS: xpath://a[@id="menu_performance_searchPerformancReview"]
+    MY_REVIEWS: xpath://a[@id="menu_performance_myPerformanceReview"]
+    REVIEW_LIST: xpath://a[@id="menu_performance_searchEvaluatePerformancReview"]
+  ORGANIZATION:
+    MAIN_MENU: xpath://a[@id="menu_admin_Organization"]
+    GENERAL_INFORMATION: xpath://a[@id="menu_admin_viewOrganizationGeneralInformation"]
+    LOCATIONS: xpath://a[@id="menu_admin_viewLocations"]
+    STRUCTURE: xpath://a[@id="menu_admin_viewCompanyStructure"]
+    ADD_ENTITLEMENTS: xpath://a[@id="menu_leave_addLeaveEntitlement"]
+    EMPLOYEE_ENTITLEMENTS: xpath://a[@id="menu_leave_viewLeaveEntitlements"]
+    MY_ENTITLEMENTS: xpath://a[@id="menu_leave_viewMyLeaveEntitlements"]
+    PROJECT_REPORTS: xpath://a[@id="menu_time_displayProjectReportCriteria"]
+    EMPLOYEE_REPORTS: xpath://a[@id="menu_time_displayEmployeeReportCriteria"]
+    ATTENDANCE_SUMMARY: xpath://a[@id="menu_time_displayAttendanceSummaryReportCriteria"]
+  QUALIFICATIONS:
+    MAIN_MENU: xpath://a[@id="menu_admin_Qualifications"]
+    SKILLS: xpath://a[@id="menu_admin_viewSkills"]
+    EDUCATION: xpath://a[@id="menu_admin_viewEducation"]
+    LICENSES: xpath://a[@id="menu_admin_viewLicenses"]
+    LANGUAGES: xpath://a[@id="menu_admin_viewLanguages"]
+    MEMBERSHIPS: xpath://a[@id="menu_admin_membership"]
+    LEAVE_ENTITLEMENTS_AND_USAGE_REPORT: xpath://a[@id="menu_leave_viewLeaveBalanceReport"]
+    MY_LEAVE_ENTITLEMENTS_AND_USAGE_REPORT: xpath://a[@id="menu_leave_viewMyLeaveBalanceReport"]
+    CUSTOMERS: xpath://a[@id="menu_admin_viewCustomers"]
+    PROJECTS: xpath://a[@id="menu_admin_viewProjects"]
+  NATIONALITIES:
+    MAIN_MENU: xpath://a[@id="menu_admin_nationality"]
+    LEAVE_PERIOD: xpath://a[@id="menu_leave_defineLeavePeriod"]
+    LEAVE_TYPES: xpath://a[@id="menu_leave_leaveTypeList"]
+    WORK_WEEK: xpath://a[@id="menu_leave_defineWorkWeek"]
+    HOLIDAYS: xpath://a[@id="menu_leave_viewHolidayList"]
+  CORPORATE_BRANDING:
+    MAIN_MENU: xpath://a[@id="menu_admin_addTheme"]
+  CONFIGURATION:
+    MAIN_MENU: xpath://a[@id="menu_admin_Configuration"]
+    EMAIL_CONFIGURATION: xpath://a[@id="menu_admin_listMailConfiguration"]
+    EMAIL_SUBSCRIPTIONS: xpath://a[@id="menu_admin_viewEmailNotification"]
+    LOCALIZATION: xpath://a[@id="menu_admin_localization"]
+    LANGUAGE_PACKAGES: xpath://a[@id="menu_admin_languagePackage"]
+    MODULES: xpath://a[@id="menu_admin_viewModules"]
+    SOCIAL_MEDIA_AUTHENTICATION: xpath://a[@id="menu_admin_openIdProvider"]
+    REGISTER_OAUTH_CLIENT: xpath://a[@id="menu_admin_registerOAuthClient"]
+PIM:
+  MAIN_MENU: xpath://a[@id="menu_pim_viewPimModule"]
+  CONFIGURATION:
+    MAIN_MENU: xpath://a[@id="menu_pim_Configuration"]
+    OPTIONAL_FIELDS: xpath://a[@id="menu_pim_configurePim"]
+    CUSTOM_FIELDS: xpath://a[@id="menu_pim_listCustomFields"]
+    DATA_IMPORT: xpath://a[@id="menu_admin_pimCsvImport"]
+    REPORTING_METHODS: xpath://a[@id="menu_pim_viewReportingMethods"]
+    TERMINATION_REASONS: xpath://a[@id="menu_pim_viewTerminationReasons"]
+  EMPLOYEE_LIST:
+    MAIN_MENU: xpath://a[@id="menu_pim_viewEmployeeList"]
+  ADD_EMPLOYEE:
+    MAIN_MENU: xpath://a[@id="menu_pim_addEmployee"]
+  REPORTS:
+    MAIN_MENU: xpath://a[@id="menu_core_viewDefinedPredefinedReports"]
+LEAVE:
+  MAIN_MENU: xpath://a[@id="menu_leave_viewLeaveModule"]
+  APPLY:
+    MAIN_MENU: xpath://a[@id="menu_leave_applyLeave"]
+  MY_LEAVE:
+    MAIN_MENU: xpath://a[@id="menu_leave_viewMyLeaveList"]
+  ENTITLEMENTS:
+    MAIN_MENU: xpath://a[@id="menu_leave_Entitlements"]
+    ADD_ENTITLEMENTS: xpath://a[@id="menu_leave_addLeaveEntitlement"]
+    EMPLOYEE_ENTITLEMENTS: xpath://a[@id="menu_leave_viewLeaveEntitlements"]
+    MY_ENTITLEMENTS: xpath://a[@id="menu_leave_viewMyLeaveEntitlements"]
+  REPORTS:
+    MAIN_MENU: xpath://a[@id="menu_leave_Reports"]
+    LEAVE_ENTITLEMENTS_AND_USAGE_REPORT: xpath://a[@id="menu_leave_viewLeaveBalanceReport"]
+    MY_LEAVE_ENTITLEMENTS_AND_USAGE_REPORT: xpath://a[@id="menu_leave_viewMyLeaveBalanceReport"]
+  CONFIGURE:
+    MAIN_MENU: xpath://a[@id="menu_leave_Configure"]
+    LEAVE_PERIOD: xpath://a[@id="menu_leave_defineLeavePeriod"]
+    LEAVE_TYPES: xpath://a[@id="menu_leave_leaveTypeList"]
+    WORK_WEEK: xpath://a[@id="menu_leave_defineWorkWeek"]
+    HOLIDAYS: xpath://a[@id="menu_leave_viewHolidayList"]
+  LEAVE_LIST:
+    MAIN_MENU: xpath://a[@id="menu_leave_viewLeaveList"]
+  ASSIGN_LEAVE:
+    MAIN_MENU: xpath://a[@id="menu_leave_assignLeave"]
+TIME:
+  MAIN_MENU: xpath://a[@id="menu_time_viewTimeModule"]
+  TIMESHEETS:
+    MAIN_MENU: xpath://a[@id="menu_time_Timesheets"]
+    MY_TIMESHEETS: xpath://a[@id="menu_time_viewMyTimesheet"]
+    EMPLOYEE_TIMESHEETS: xpath://a[@id="menu_time_viewEmployeeTimesheet"]
+  ATTENDANCE:
+    MAIN_MENU: xpath://a[@id="menu_attendance_Attendance"]
+    MY_RECORDS: xpath://a[@id="menu_attendance_viewMyAttendanceRecord"]
+    PUNCH_IN_OUT: xpath://a[@id="menu_attendance_punchIn"]
+    EMPLOYEE_RECORDS: xpath://a[@id="menu_attendance_viewAttendanceRecord"]
+    CONFIGURATION: xpath://a[@id="menu_attendance_configure"]
+  REPORTS:
+    MAIN_MENU: xpath://a[@id="menu_time_Reports"]
+    PROJECT_REPORTS: xpath://a[@id="menu_time_displayProjectReportCriteria"]
+    EMPLOYEE_REPORTS: xpath://a[@id="menu_time_displayEmployeeReportCriteria"]
+    ATTENDANCE_SUMMARY: xpath://a[@id="menu_time_displayAttendanceSummaryReportCriteria"]
+  PROJECT_INFO:
+    MAIN_MENU: xpath://a[@id="menu_admin_ProjectInfo"]
+    CUSTOMERS: xpath://a[@id="menu_admin_viewCustomers"]
+    PROJECTS: xpath://a[@id="menu_admin_viewProjects"]
+RECRUITMENT:
+  MAIN_MENU: xpath://a[@id="menu_recruitment_viewRecruitmentModule"]
+  CANDIDATES:
+    MAIN_MENU: xpath://a[@id="menu_recruitment_viewCandidates"]
+  VACANCIES:
+    MAIN_MENU: xpath://a[@id="menu_recruitment_viewJobVacancy"]
+MY_INFO: 
+  MAIN_MENU: xpath://a[@id="menu_pim_viewMyDetails"]
+PERFORMANCE:
+  MAIN_MENU: xpath://a[@id="menu__Performance"]
+  CONFIGURE:
+    MAIN_MENU: xpath://a[@id="menu_performance_Configure"]
+    KPIS: xpath://a[@id="menu_performance_searchKpi"]
+    TRACKERS: xpath://a[@id="menu_performance_addPerformanceTracker"]
+  MANAGE_REVIEWS:
+    MAIN_MENU: xpath://a[@id="menu_performance_ManageReviews"]
+    MANAGE_REVIEWS: xpath://a[@id="menu_performance_searchPerformancReview"]
+    MY_REVIEWS: xpath://a[@id="menu_performance_myPerformanceReview"]
+    REVIEW_LIST: xpath://a[@id="menu_performance_searchEvaluatePerformancReview"]
+  MY_TRACKERS:
+    MAIN_MENU: xpath://a[@id="menu_performance_viewMyPerformanceTrackerList"]
+  EMPLOYEE_TRACKERS:
+    MAIN_MENU: xpath://a[@id="menu_performance_viewEmployeePerformanceTrackerList"]
+DASHBOARD: 
+  MAIN_MENU: xpath://a[@id="menu_dashboard_index"]
+DIRECTORY: 
+  MAIN_MENU: xpath://a[@id="menu_directory_viewDirectory"]
+MAINTENANCE: 
+  MAIN_MENU: xpath://a[@id="menu_maintenance_purgeEmployee"]
+  PURGE_RECORDS:
+    MAIN_MENU: xpath://a[@id="menu_maintenance_PurgeRecords"]
+    EMPLOYEE_RECORDS: xpath://a[@id="menu_maintenance_purgeEmployee"]
+    CANDIDATE_RECORDS: xpath://a[@id="menu_maintenance_purgeCandidateData"]
+  ACCESS_RECORDS:
+    MAIN_MENU: xpath://a[@id="menu_maintenance_accessEmployeeData"]
+BUZZ: 
+  MAIN_MENU: xpath://a[@id="menu_buzz_viewBuzz"]

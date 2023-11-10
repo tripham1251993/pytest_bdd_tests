@@ -1,0 +1,12 @@
+allure-pytest
+pytest
+pytest-bdd
+pytest-cov
+pytest-html
+pytest-xdist
+requests
+pyyaml
+selenium
+webdriver-manager
+black
+flake8
